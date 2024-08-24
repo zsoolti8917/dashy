@@ -1,8 +1,8 @@
 ---
 # Page meta info, like heading, footer text and nav links
 pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
+  title: ZS.V.
+  description: My personal dashboard
   navLinks:
   - title: GitHub
     path: https://github.com/Lissy93/dashy
@@ -12,7 +12,13 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: colorful
-
+  disableConfigurationForNonAdmin: true
+  auth:
+    enableGuestAccess: false
+    users:
+    - user: zsoolti8917
+      password: VUE_APP_BASIC_AUTH_PASSWORD
+      type: admin
 # Main content - An array of sections, each containing an array of items
 sections:
 - name: Getting Started
